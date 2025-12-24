@@ -23,6 +23,3 @@ workflows:
           flutter build apk --release --no-shrink
     artifacts:
       - build/app/outputs/flutter-apk/app-release.apk
-    cache:
-      paths:
-        - ~/.pub-cache
